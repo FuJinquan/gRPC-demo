@@ -8,12 +8,6 @@ import (
 
 var db *gorm.DB
 
-type Note struct {
-	gorm.Model
-	Title string
-	Text  string
-}
-
 //连接mysql数据库
 func SetUp() {
 	var err error

@@ -3,6 +3,7 @@ syntax = "proto3";
 package note;
 
 service noteOption {
+    //给变量、方法
     rpc AddRecord (AddRequest) returns (Response);
     rpc DeleteRecord (Request) returns (Response);
     rpc UpdateRecord (UpdateRequest) returns (Response);
